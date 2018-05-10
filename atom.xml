@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Hello</title>
+  
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://yoursite.com/"/>
+  <updated>2018-05-10T08:27:53.228Z</updated>
+  <id>http://yoursite.com/</id>
+  
+  <author>
+    <name>博宁六</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>适合新手练手的C/C++项目</title>
+    <link href="http://yoursite.com/2018/05/10/%E6%96%87%E7%AB%A0/"/>
+    <id>http://yoursite.com/2018/05/10/文章/</id>
+    <published>2018-05-10T03:10:56.000Z</published>
+    <updated>2018-05-10T08:27:53.228Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>推荐一些适合新手练手的C/C++项目<br>算法与数据结构  2018-05-10<br>最好的编程语言是什么？一千个程序员或许会有一千零一种答案：</p><p>Python在人工智能时代的风头正盛、Java依旧是市场上的香饽饽、当然还有PHP；JavaScript、C#、Ruby以及Objective-C……每一种编程语言，都有由其打造的顶级应用成果呈现。</p><p>根据TIOBE 刚刚发布了 5 月编程语言排行榜，排名前三的依旧有C/C++。而且都出现了不同幅度的增长，<strong>c语言增长幅度最高达到7%，c++增长2.92%</strong><br><img src="https://i.imgur.com/THmS48S.jpg" alt=""></p><p>C/C++作为元老级的编程语言，任时光更迭依旧屹立不倒，哪怕如今炙手可热的AI，其底层也是用其编写。<strong>C/C++可以说是永不过时的语言。</strong></p><p>那么作为新手该如何上手这门语言？一切不敲代码的学编程手段都是扯淡，今天小编就推荐一些适合新手练手的C/C++项目。<br>1<br>用GDI实现动画效果<br>GDI是windows与生俱来的图形设备接口（GraphicsDeviceInterface）负责系统与绘图程序之间的信息交换，处理所有Windows程序的图形和图像输出。</p><p><strong>♦部分思路及代码如下</strong><br><br>准备一张BMP格式的背景图片，创建一个窗体，在窗体上进行绘制，然后通过GetDC函数来获取窗体的设备环境DC。<br><img src="https://i.imgur.com/nJeqkLa.jpg" alt=""></p><p>获取设备环境后在内存中创建一个设备环境，在内存中画图，画好以后，直接拷贝到窗体的设备环境上。<br><img src="https://i.imgur.com/PgjXqfA.jpg" alt=""></p><p>采用的第二种绘制方式(消息循环)，通过一个数组把他们保存起来，然后依次播放。下面是部分代码：<br><img src="https://i.imgur.com/vA8oYsq.jpg" alt=""><br><strong>♦运行效果如下</strong></p><p><img src="https://i.imgur.com/rrjJsjL.gif" alt=""><hr><br><span><br>在开发过程中，我们会用到C/C++语言、Win32窗口创建、消息机制、GDI三缓冲绘图原理等知识点。</span></p><p><strong>●学习过程中你能学会：</strong><br><br>1.使用API函数创建好Win32窗口。<br>2.将准备好的游戏素材加载到程序中。<br>3.使用GDI图形设备接口函数绘制地图与角色。<br>4.利用C/C++语法结合数据结构与算法算法处理游戏数据。<br>5.编写游戏逻辑。</p><p><strong>●学习成效：</strong><br><br>1.跳出控制台，在界面编程中去锻炼自己的逻辑思维能力。<br>2.了解windows程序设计的基本框架。<br>3.可尝试去开发各种界面化的程序，例如雷霆战机，俄罗斯方块，坦克大战等等。</p><p><hr><br></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://yoursite.com/2018/05/09/hello-world/"/>
+    <id>http://yoursite.com/2018/05/09/hello-world/</id>
+    <published>2018-05-09T07:35:15.110Z</published>
+    <updated>2018-05-09T07:35:15.110Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+</feed>
